@@ -1,25 +1,31 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Logo from './Logo';
+import NotFound from './NotFound'
+import { Route, Switch } from 'react-router'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  
+  render(){
+    return (
+        <div className="App">
+          <Logo />
+
+            <main>
+
+              <Switch>
+                <Route path="/" exact render={ this.renderSignUp } />
+                <Route path="/signin" exact render={ this.renderSignIn } />
+                <Route path="/home" exact render={ this.renderHome } />
+                <Route path="/lists" exact render={ this.renderLists } />
+                <Route component={NotFound} />
+              </Switch>
+
+            </main>
+
+        </div>
+    );
+  }
 }
 
 export default App;
