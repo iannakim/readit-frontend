@@ -5,12 +5,12 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
 }
 
 .logo {
-  width: 5vw;
+  width: 3vw;
   object-fit: contain;
 }
 
