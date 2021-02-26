@@ -4,6 +4,7 @@ import './App.css';
 
 import Header from './Header'
 import Home from './components/Home'
+import ArticlesContainer from './components/ArticlesContainer'
 import NotFound from './NotFound.js'
 
 
@@ -16,8 +17,8 @@ class App extends React.Component {
           <div>
             <Switch>
               <Route path="/" exact component={Home}/>
-              {/* <Route path="/articles" exact component={ArticlesContainer}/>
-              <Route path="/articles/:id/" render={this.showSingleArticle}/>
+              <Route path="/articles" exact component={ArticlesContainer}/>
+              {/* <Route path="/articles/:id/" render={this.showSingleArticle}/>
               <Route path="/login" component={LogIn} />
               <Route path="/signup" component={SignUp}/>
               <Route path="/activities" component={Activities} />

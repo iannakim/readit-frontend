@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import {withRouter, NavLink} from 'react-router-dom'
+import React from 'react'
+import { withRouter } from 'react-router-dom'
 import { Navbar, Button, Nav, NavDropdown, Form, FormControl } from 'react-bootstrap'
 import logo from './images/logo.svg';
 
@@ -20,7 +20,7 @@ class Header extends React.Component {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
               <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="#articles">View Latest Articles</Nav.Link>
+              <Nav.Link href="/articles">View Latest Articles</Nav.Link>
               <NavDropdown title="More" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#activities">View My Work</NavDropdown.Item>
                 <NavDropdown.Item href="#saved">Saved Articles</NavDropdown.Item>

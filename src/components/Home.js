@@ -28,7 +28,8 @@ function Home() {
 
 
       <div className="content">
-        <h2>Hi Welcome to READ.IT</h2>
+        <h1>Hi there!</h1>
+        <h2>We're so glad you stopped by.</h2>
         <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ipsum dolor sit amet consectetur. In arcu cursus euismod quis viverra nibh cras. Ut lectus arcu bibendum at varius vel. Et molestie ac feugiat sed lectus. Morbi blandit cursus risus at. Diam maecenas ultricies mi eget. Et magnis dis parturient montes nascetur ridiculus mus. Vivamus at augue eget arcu. Ipsum dolor sit amet consectetur adipiscing. Eget mi proin sed libero enim sed faucibus turpis. Velit euismod in pellentesque massa placerat duis ultricies lacus. 
         </p>

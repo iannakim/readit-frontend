@@ -15,10 +15,11 @@
 }
 
 .error-image {
-  width: 15vw;
+  width: 10vw;
 }
 
 .not-found {
   margin-top: 5%;
+  margin-left: 10%;
 }
 
