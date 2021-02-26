@@ -1,10 +1,27 @@
 import React from 'react'
 import { withRouter } from 'react-router-dom'
+import Article from './Article'
+import './article.css'
 
-function ArticlesContainer() {
+function ArticlesContainer(props) {
+
+  let arrayOfArticles = props.articles.map((article) => {
+    return <Article 
+              key={article.id}
+              article={article.attributes}
+            />
+  })
+
+// console.log(props.articles)
   return (
+    
     <div className="articles-container">
-      <h1>All Articles</h1>
+      <h1>Latest News Articles</h1>
+      <div class="container">
+        <div class="row">
+          { arrayOfArticles }
+        </div>
+      </div>
     </div>
   )
 }
