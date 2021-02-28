@@ -15,3 +15,7 @@
 .card-body {
   height: 230px;
 }
+
+.single-card:hover {
+  transform: translate(0, 0.3rem);
+}

@@ -20,7 +20,7 @@ class Article extends React.Component {
     return(
       <div className="col">
 
-          <Card style={{ width: '18rem'}}>
+          <Card className="single-card" style={{ width: '18rem'}}>
             <Card.Img src={ image } />
             <Card.Body>
               <Card.Title>{ title }</Card.Title>
