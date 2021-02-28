@@ -17,8 +17,8 @@ function ArticlesContainer(props) {
     
     <div className="articles-container">
       <h1>Latest News Articles</h1>
-      <div class="container">
-        <div class="row">
+      <div className="container">
+        <div className="row">
           { arrayOfArticles }
         </div>
       </div>

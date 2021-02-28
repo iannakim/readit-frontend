@@ -5,6 +5,14 @@ import './article.css'
 
 class Article extends React.Component {
   
+
+  handleClick(url) {
+      //open modal with form [pre-filled with article title, image, description, url and empty content]
+    console.log("you clicked me!", url.url)
+
+  }
+
+
   render(){
     // console.log(this.props.article)
     let {title, source, author, description, date, content, url, image} = this.props.article
@@ -19,7 +27,7 @@ class Article extends React.Component {
               <Card.Text>
                 {description}
               </Card.Text>
-              <Button variant="primary">Read More</Button>
+              <a href={url} target='_blank'><Button onClick={()=>{this.handleClick({url})}} variant="primary">Read More</Button></a>
             </Card.Body>
           </Card>
 
