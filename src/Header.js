@@ -22,7 +22,7 @@ class Header extends React.Component {
               <Nav.Link href="/">Home</Nav.Link>
               <Nav.Link href="/articles">View Latest Articles</Nav.Link>
               <NavDropdown title="More" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#activities">View My Work</NavDropdown.Item>
+                <NavDropdown.Item href="#activities">Reading Logs</NavDropdown.Item>
                 <NavDropdown.Item href="#saved">Saved Articles</NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item href="#account">View/Edit My Account</NavDropdown.Item>
