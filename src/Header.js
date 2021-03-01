@@ -20,12 +20,12 @@ class Header extends React.Component {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
               <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="/articles">View Latest Articles</Nav.Link>
+              <Nav.Link href="/articles">Articles</Nav.Link>
+              <Nav.Link href="/logs">My Reading Logs</Nav.Link>
               <NavDropdown title="More" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#activities">Reading Logs</NavDropdown.Item>
-                <NavDropdown.Item href="#saved">Saved Articles</NavDropdown.Item>
+                <NavDropdown.Item href="/saved">Saved articles</NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="#account">View/Edit My Account</NavDropdown.Item>
+                <NavDropdown.Item href="/account">My Account</NavDropdown.Item>
               </NavDropdown>
             </Nav>
             <Form inline>

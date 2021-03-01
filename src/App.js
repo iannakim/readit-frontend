@@ -5,6 +5,7 @@ import './App.css';
 import Header from './Header'
 import Home from './components/Home'
 import ArticlesContainer from './components/ArticlesContainer'
+import LogsContainer from './components/LogsContainer'
 import NotFound from './NotFound.js'
 
 
@@ -35,6 +36,20 @@ class App extends React.Component {
                 />
              </div> 
     }
+    // else {
+    //   alert('Please Log in first!')
+    //   //redirect to login page
+    // }
+  }
+
+  renderLogsContainer = (routerProps) => {
+    if(this.state.isUserLoggedIn){
+      return <div>
+                <LogsContainer 
+                  currentUser={this.state.currentUser}
+                />
+             </div>
+    }
   }
 
 
@@ -48,6 +63,7 @@ class App extends React.Component {
             <Switch>
               <Route path="/" exact component={ Home }/>
               <Route path="/articles" exact render={ this.renderArContainer }/>
+              <Route path="/logs" exact render={ this.renderLogsContainer }/>
               {/* <Route path="/articles/:id/" render={this.showSingleArticle}/>
               <Route path="/login" component={LogIn} />
               <Route path="/signup" component={SignUp}/>

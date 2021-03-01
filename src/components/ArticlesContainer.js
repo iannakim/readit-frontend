@@ -16,7 +16,7 @@ function ArticlesContainer(props) {
   return (
     
     <div className="articles-container">
-      <h1>Latest News Articles</h1>
+      <h1>Latest News</h1>
       <div className="container">
         <div className="row">
           { arrayOfArticles }
