@@ -2,7 +2,7 @@ import React from 'react'
 import { withRouter } from 'react-router-dom'
 import { Navbar, Button, Nav, NavDropdown, Form, FormControl } from 'react-bootstrap'
 import logo from './images/logo.svg';
-
+import './App.css'
 
 class Header extends React.Component {
 

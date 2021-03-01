@@ -15,6 +15,13 @@ function ArticlesContainer(props) {
 // console.log(props.articles)
   return (
     
+    <div class="background">
+    <div class="cube"></div>
+    <div class="cube"></div>
+    <div class="cube"></div>
+    <div class="cube"></div>
+    <div class="cube"></div>
+    
     <div className="articles-container">
       <h1>Latest News</h1>
       <div className="container">
@@ -23,6 +30,8 @@ function ArticlesContainer(props) {
         </div>
       </div>
     </div>
+      
+  </div>
   )
 }
 
