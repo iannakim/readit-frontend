@@ -5,6 +5,7 @@ import cloud from '../images/cloud.png';
 import spaceship from '../images/spaceship.png';
 import quote from '../images/quote.png';
 
+
 function Home() {
   const [offset, setOffset] = useState()
 
@@ -36,6 +37,9 @@ function Home() {
         <p>
         Consectetur adipiscing elit duis tristique. In egestas erat imperdiet sed euismod nisi porta lorem. Varius duis at consectetur lorem. At imperdiet dui accumsan sit amet. Aliquam etiam erat velit scelerisque in dictum non. Dui accumsan sit amet nulla facilisi morbi tempus iaculis urna. Tincidunt id aliquet risus feugiat in ante. Diam ut venenatis tellus in metus vulputate. Etiam tempor orci eu lobortis elementum nibh. Amet porttitor eget dolor morbi non. In nulla posuere sollicitudin aliquam ultrices. Arcu non odio euismod lacinia at quis risus sed. Malesuada fames ac turpis egestas maecenas pharetra. Porttitor massa id neque aliquam vestibulum. Lacinia quis vel eros donec ac odio tempor orci dapibus. Sit amet purus gravida quis blandit turpis. Leo vel orci porta non pulvinar neque laoreet suspendisse interdum. Felis bibendum ut tristique et egestas quis. Dui id ornare arcu odio ut sem nulla.
       </p>
+      <center>
+        <a href="/articles"><button className="start">Start Reading</button></a>
+      </center>
       </div>
     </div>
   )

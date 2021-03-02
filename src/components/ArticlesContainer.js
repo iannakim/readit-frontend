@@ -2,6 +2,7 @@ import React from 'react'
 import { withRouter } from 'react-router-dom'
 import Article from './Article'
 import './article.css'
+import  news from '../images/news.png';
 
 function ArticlesContainer(props) {
 
@@ -23,7 +24,7 @@ function ArticlesContainer(props) {
     <div class="cube"></div>
     
     <div className="articles-container">
-      <h1>Latest News</h1>
+      <img src={news}/><h1>Explore latest News</h1>
       <div className="container">
         <div className="row">
           { arrayOfArticles }

@@ -27,12 +27,12 @@
 }
 
 .single-card {
-  height: 500px;
+  height: 450px;
   box-shadow: 5px 5px 10px 0.5px rgba(0, 0, 0, 0.2);
 }
 
 .background {
-  background: linear-gradient(132deg, #f53085, #4fc9fe, #8d99f7);
+  background: linear-gradient(132deg, #ffffff, #465bff, #52cbff);
   background-size: 400% 400%;
   animation: Gradient 15s ease infinite;
   position: relative;
@@ -81,6 +81,7 @@
   left: 50vw;
   top: 10vh;
 }
+
 
 @keyframes Gradient {
   0% {

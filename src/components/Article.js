@@ -25,7 +25,7 @@ class Article extends React.Component {
             <Card.Body>
               <Card.Title>{ title }</Card.Title>
               <Card.Text>
-                <p>{description} ({source})</p>
+                {description} ({source})
               </Card.Text>
               <a href={url} target='_blank'><Button onClick={()=>{this.handleClick({url}, {title}, {author}, {date}, {description})}} variant="secondary">Read More</Button></a>
             </Card.Body>

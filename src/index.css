@@ -15,6 +15,19 @@ code {
     monospace;
 }
 
-button:hover {
-  filter: brightness(200%) !important;
+h1 {
+  font-size: 4.1em !important;
+  font-weight: 700 !important;
+  margin-bottom: 10px !important;
+}
+
+h2 {
+  font-size: 2.0em !important;
+  font-weight: 400 !important;
+  color:rgb(26, 67, 203) !important; 
+  margin-bottom: 20px !important;
+}
+
+p {
+  font-size: 1.0em !important;
 }

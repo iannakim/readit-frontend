@@ -43,19 +43,25 @@
   padding: 100px;
 }
 
-.content h1 {
-  font-size: 4.1em;
-  font-weight: 700;
-  margin-bottom: 10px;
+button.start {
+  cursor: pointer;
+  margin-top: 40px;
+  font-size: 1.3rem;
+  letter-spacing: 0.2rem;
+  height: 3.5rem;
+  border: none;
+  border-radius: 25px;
+  color: #ffffff;
+  background: #353b48;
+  outline: none;
+  padding: 0.5rem 5.0rem;
+  box-shadow: 0.5rem 0.5rem rgb(26, 67, 203);
 }
 
-.content h2 {
-  font-size: 2.0em;
-  font-weight: 400;
-  color:rgb(26, 67, 203); 
-  margin-bottom: 20px;
-}
-
-.content p {
-  font-size: 1.2em;
+button.start:hover {
+  color: #ffffff;
+  background: rgb(26, 67, 203);
+  transform: translate(0.5rem, 0.5rem);
+  box-shadow: -0.5rem -0.5rem #353b48;
+  transition: 0.2s;
 }
