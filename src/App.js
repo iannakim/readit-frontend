@@ -24,7 +24,11 @@ class App extends React.Component {
         this.setState({
           articles: allArticles.data
         })
-      })   
+      })
+    
+    // if(this.state.isUserLoggedIn){
+    // fetch(`http://localhost:3000/logs/${this.currentUser.token}`)
+    // }
   }
 
   renderArContainer = (routerProps) => {
