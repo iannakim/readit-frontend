@@ -33,6 +33,7 @@
 }
 
 #quote{
+  max-width: 85%;
   position: relative;
   left: 5%;
   transform: translateY(140%)
@@ -56,6 +57,7 @@ button.start {
   outline: none;
   padding: 0.5rem 5.0rem;
   box-shadow: 0.5rem 0.5rem rgb(26, 67, 203);
+  transition: 0.3s;
 }
 
 button.start:hover {
@@ -63,5 +65,5 @@ button.start:hover {
   background: rgb(26, 67, 203);
   transform: translate(0.5rem, 0.5rem);
   box-shadow: -0.5rem -0.5rem #353b48;
-  transition: 0.2s;
+  transition: 0.3s;
 }
