@@ -4,6 +4,8 @@ import './App.css';
 
 import Header from './Header'
 import Home from './components/Home'
+import LogIn from './components/LogIn'
+import SignUp from './components/SignUp'
 import ArticlesContainer from './components/ArticlesContainer'
 import LogsContainer from './components/LogsContainer'
 import NotFound from './NotFound.js'
@@ -68,11 +70,11 @@ class App extends React.Component {
               <Route path="/" exact component={ Home }/>
               <Route path="/articles" exact render={ this.renderArContainer }/>
               <Route path="/logs" exact render={ this.renderLogsContainer }/>
-              {/* <Route path="/articles/:id/" render={this.showSingleArticle}/>
               <Route path="/login" component={LogIn} />
               <Route path="/signup" component={SignUp}/>
-              <Route path="/activities" component={Activities} />
-              <Route path="/account" component={Account} /> */}
+              {/* <Route path="/articles/:id/" render={this.showSingleArticle}/> */}
+              {/* <Route path="/activities" component={Activities} /> */}
+              {/* <Route path="/account" component={Account} /> */}
               <Route component={NotFound} />
             </Switch>
           </div>

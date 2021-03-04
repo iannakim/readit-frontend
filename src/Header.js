@@ -28,10 +28,15 @@ class Header extends React.Component {
                 <NavDropdown.Item href="/account">My Account</NavDropdown.Item>
               </NavDropdown>
             </Nav>
-            {/* <Form inline>
-              <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-              <Button variant="outline-success">Search</Button>
-            </Form> */}
+
+            <Nav className="justify-content-end">
+                <Nav.Item>
+                  <Nav.Link href="/login">Log In</Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                  <Nav.Link href="/signup">Sign Up</Nav.Link>
+                </Nav.Item>
+            </Nav>
         </Navbar.Collapse>
       </Navbar>
 
