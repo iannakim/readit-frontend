@@ -4,7 +4,10 @@ import { withRouter } from 'react-router-dom'
 function LogIn() {
 
   return(
-    "Log In Page"
+    <Form>
+      "Log In Page"
+    </Form>
+    
   )
 }
 
