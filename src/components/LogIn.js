@@ -4,10 +4,9 @@ import { withRouter } from 'react-router-dom'
 function LogIn() {
 
   return(
-    <Form>
+    <div>
       "Log In Page"
-    </Form>
-    
+    </div>
   )
 }
 
