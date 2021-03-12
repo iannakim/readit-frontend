@@ -26,3 +26,7 @@
 .navbar {
   height: 60px;
 }
+
+.login-container {
+  width: 400px;
+}
